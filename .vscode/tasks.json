@@ -1,0 +1,28 @@
+{
+    "tasks": [
+        {
+            "type": "cmake",
+            "label": "build",
+            "command": "build",
+            "targets": ["ALL_BUILD"],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+            
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "CMake template build task."
+        },
+        {
+            "label":"debug",
+            "type":"cppvsdbg",
+            "request":"launch",
+            "program":"${workspaceFolder}/build/Debug/CMakeHelloWorld.exe",
+        }
+    ],
+    "version": "2.0.0"
+}

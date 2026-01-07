@@ -1,0 +1,5 @@
+{
+    "cmake.generator": "Ninja",
+    "cmake.buildDirectory": "${workspaceFolder}/build/${buildType}",
+    "cmake.sourceDirectory": "C:/Users/oliver_ooi/Documents/C++/merge sort"
+}
