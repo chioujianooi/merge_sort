@@ -1,10 +1,10 @@
 {
-    "configurations":[
+    "configurations": [
         {
-            "name":"debug",
-            "type":"cppvsdbg",
+            "name": "debug",
+            "type": "cppvsdbg",
             "request": "launch",
-            "program": "${workspaceRoot}/build/Debug/CMakeHelloWorld.exe",
+            "program": "${workspaceRoot}/build/Debug/MergeSort.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceRoot}/build/Debug",
